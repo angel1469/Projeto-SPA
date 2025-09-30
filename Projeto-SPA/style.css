@@ -1,0 +1,74 @@
+/* Importa fonte moderna do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilização geral da página */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 40px 20px;
+  line-height: 1.6;
+}
+
+/* Cabeçalho principal */
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo da lista */
+ul {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Estilo de cada item da lista */
+li {
+  padding: 15px 25px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 1.1em;
+  transition: background-color 0.2s;
+}
+
+/* Último item sem borda */
+li:last-child {
+  border-bottom: none;
+}
+
+/* Efeito hover para interatividade */
+li:hover {
+  background-color: #f0f8ff;
+  cursor: pointer;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  body {
+    padding: 20px 10px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  li {
+    font-size: 1em;
+    padding: 12px 18px;
+  }
+}
